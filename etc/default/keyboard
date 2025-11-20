@@ -1,0 +1,6 @@
+# Roxanne Cyberdeck — Caps Lock is dead forever
+XKBLAYOUT="us"
+BACKSPACE="guess"
+XKBVARIANT=""
+XKBMODEL="pc105"
+XKBOPTIONS="caps:escape"

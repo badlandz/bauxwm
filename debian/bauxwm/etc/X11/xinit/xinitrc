@@ -1,0 +1,17 @@
+#!/bin/sh
+# Roxanne Cyberdeck global X startup — no user overrides allowed
+
+# Black background — no feh, no wallpaper bloat
+xsetroot -solid "#0e281c"
+
+# Keymap — already done by console-setup, but force it in X too
+setxkbmap -option caps:escape
+
+# Transparency
+picom --experimental-backends &
+
+# Status bar loop
+/usr/share/bauxwm/bin/status.sh &
+
+# Start the real WM
+exec dwm-roxanne
