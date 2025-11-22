@@ -1,6 +1,7 @@
 # bauxwm – the GUI rice that speaks BAUX
 
-`bauxwm` is the optional X11 layer for **RoxieOS**  and **BAUX**.  
+`bauxwm` is the optional X11 layer for **RoxieOS**  and **BAUX**.  bauxwm is a fork of dwm.
+
 Install this single `.deb` on any Debian-based system (Raspberry Pi 4/5, laptop, VM) and `startx` instantly drops you into a perfectly themed, minimal, keyboard-driven cyberdeck desktop that feels like a natural extension of your BAUX console workflow.
 
 No bloat. No mouse required. Everything flows.
